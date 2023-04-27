@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/test-softryzen/static/css/main.adf7deee.css",
-    "main.js": "/test-softryzen/static/js/main.5cc302b9.js",
+    "main.css": "/test-softryzen/static/css/main.aaaed89c.css",
+    "main.js": "/test-softryzen/static/js/main.93847dc1.js",
     "static/media/showcase.jpg": "/test-softryzen/static/media/showcase.51cab55d982ce4bcedb5.jpg",
     "static/media/people.jpg": "/test-softryzen/static/media/people.f32f74cc55eb8b3518b7.jpg",
+    "static/media/cases4.jpg": "/test-softryzen/static/media/cases4.bc8713e3f48b0aee4eab.jpg",
+    "static/media/cases1.jpg": "/test-softryzen/static/media/cases1.64dcfe4d42845316bcf2.jpg",
+    "static/media/cases6.jpg": "/test-softryzen/static/media/cases6.68742c6ad9d5c7023ae2.jpg",
+    "static/media/cases3.jpg": "/test-softryzen/static/media/cases3.3758803cff01fbec967c.jpg",
+    "static/media/cases5.jpg": "/test-softryzen/static/media/cases5.936cb2fcbdc950fb047d.jpg",
+    "static/media/cases2.jpg": "/test-softryzen/static/media/cases2.855b02a74ffed4538fb1.jpg",
     "index.html": "/test-softryzen/index.html",
     "static/media/buttonSvg.svg": "/test-softryzen/static/media/buttonSvg.25b6c10f082e704fb317.svg",
-    "main.adf7deee.css.map": "/test-softryzen/static/css/main.adf7deee.css.map",
-    "main.5cc302b9.js.map": "/test-softryzen/static/js/main.5cc302b9.js.map"
+    "main.aaaed89c.css.map": "/test-softryzen/static/css/main.aaaed89c.css.map",
+    "main.93847dc1.js.map": "/test-softryzen/static/js/main.93847dc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.adf7deee.css",
-    "static/js/main.5cc302b9.js"
+    "static/css/main.aaaed89c.css",
+    "static/js/main.93847dc1.js"
   ]
 }
