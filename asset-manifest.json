@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-softryzen/static/css/main.16cae302.css",
+    "main.js": "/test-softryzen/static/js/main.770ee839.js",
+    "index.html": "/test-softryzen/index.html",
+    "main.16cae302.css.map": "/test-softryzen/static/css/main.16cae302.css.map",
+    "main.770ee839.js.map": "/test-softryzen/static/js/main.770ee839.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16cae302.css",
+    "static/js/main.770ee839.js"
+  ]
+}
