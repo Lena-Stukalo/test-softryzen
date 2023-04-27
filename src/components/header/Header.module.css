@@ -1,4 +1,8 @@
 .header{
-    background-color: black;
+    background-color: transparent;
     padding: 22px 22px 0 22px;
+   min-width: 320px;
+   position: fixed;
+   left: 50%;
+   transform: translate(-50%, 0);
 }
