@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/test-softryzen/static/css/main.16cae302.css",
-    "main.js": "/test-softryzen/static/js/main.770ee839.js",
+    "main.css": "/test-softryzen/static/css/main.7fe9be93.css",
+    "main.js": "/test-softryzen/static/js/main.71ee5652.js",
+    "static/media/showcase.jpg": "/test-softryzen/static/media/showcase.51cab55d982ce4bcedb5.jpg",
     "index.html": "/test-softryzen/index.html",
-    "main.16cae302.css.map": "/test-softryzen/static/css/main.16cae302.css.map",
-    "main.770ee839.js.map": "/test-softryzen/static/js/main.770ee839.js.map"
+    "static/media/buttonSvg.svg": "/test-softryzen/static/media/buttonSvg.25b6c10f082e704fb317.svg",
+    "main.7fe9be93.css.map": "/test-softryzen/static/css/main.7fe9be93.css.map",
+    "main.71ee5652.js.map": "/test-softryzen/static/js/main.71ee5652.js.map"
   },
   "entrypoints": [
-    "static/css/main.16cae302.css",
-    "static/js/main.770ee839.js"
+    "static/css/main.7fe9be93.css",
+    "static/js/main.71ee5652.js"
   ]
 }
