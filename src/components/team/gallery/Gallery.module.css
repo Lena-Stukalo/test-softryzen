@@ -1,0 +1,19 @@
+.img{
+    width:100%;
+    margin-bottom: 16px;
+}
+.item:not(:last-child){
+    margin-bottom: 30px;
+}
+.name{font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+margin-bottom: 8px;}
+.ocupation{
+    font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+}
