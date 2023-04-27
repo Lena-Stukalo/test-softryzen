@@ -1,0 +1,38 @@
+.container{
+    padding-top: 79px;
+    padding-bottom: 79px;
+    padding-left: 20px;
+    background-color:  #28A745;
+    color: #FFFFFF;
+}
+.preTitle{
+font-size: 16px;
+line-height: 22px;
+margin-bottom: 16px;
+}
+.title{
+    font-size: 32px;
+line-height: 44px;
+
+margin-bottom: 24px;
+font-weight: 400;
+
+}
+.text{
+    font-size: 16px;
+line-height: 22px;
+margin-bottom: 24px;
+}
+.button{
+    padding: 16px 32px;
+
+    width: 146px;
+    height: 54px;
+    left: 20px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+background-color: transparent;
+font-size: 16px;
+line-height: 22px;
+}
