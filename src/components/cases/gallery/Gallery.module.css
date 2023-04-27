@@ -1,0 +1,6 @@
+.img{
+    width:100%;
+}
+.item:not(:last-child){
+    margin-bottom: 8px;
+}
