@@ -1,0 +1,36 @@
+.input{
+    padding: 16px 8px;
+width: 280px;
+height: 56px;
+background: #FFFFFF;
+border: 1px solid #F5F5F5;
+border-radius: 5px;
+margin-bottom: 16px;
+display: block;
+}
+
+.label{
+    display: block;
+    font-size: 16px;
+line-height: 23px;
+/* or 144% */
+
+
+color: #808080;
+
+}
+.button{
+    padding: 16px 56px;
+width: 155px;
+height: 57px;
+display: block;
+margin-top: 8px;
+
+background: #28A745;
+border-radius: 5px;
+font-size: 18px;
+line-height: 25px;
+border-style: none;
+text-align: center;
+color: #FFFFFF;
+}

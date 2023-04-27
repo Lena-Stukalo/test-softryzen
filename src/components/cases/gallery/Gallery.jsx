@@ -10,7 +10,7 @@ export function Gallery(){
     const cases=[case1,case2,case3,case4,case5,case6];
     return <ul>
                 {cases.map(item=>{
-                    return <li className={css.item}><img src={item} alt="case"  className={css.img}/></li>
+                    return <li className={css.item}><img src={item} alt="case" className={css.img}/></li>
                 })}
     </ul>
    }

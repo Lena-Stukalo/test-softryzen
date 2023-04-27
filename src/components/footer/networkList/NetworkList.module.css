@@ -1,0 +1,10 @@
+.list{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 216px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+.list:hover{color: aqua;}
