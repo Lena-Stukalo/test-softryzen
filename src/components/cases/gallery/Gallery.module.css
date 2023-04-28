@@ -8,10 +8,10 @@
     .gallery{
         display: flex;
         flex-wrap: wrap;
-        margin-right: -30px;
+        margin-right: -18px;
     }
     .item{
-        width: calc((100% - 90px) / 3);
+        width: calc((100% - 54px) / 3);
   max-width: 233px;
     }
     .item:not(:nth-child(3n)){
