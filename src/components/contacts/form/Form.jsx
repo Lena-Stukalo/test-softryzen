@@ -1,6 +1,6 @@
 import css from './Form.module.css'
 export function Form(){
-    return <form>
+    return <form className={css.form}>
         <label htmlFor='name' className={css.label}>Enter your name</label>
         <input type="text" name="name" className={css.input}/>
         <label htmlFor='email' className={css.label}>Enter email*</label>

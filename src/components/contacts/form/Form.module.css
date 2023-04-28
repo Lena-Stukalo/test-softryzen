@@ -1,6 +1,6 @@
 .input{
     padding: 16px 8px;
-width: 280px;
+width: 100%;
 height: 56px;
 background: #FFFFFF;
 border: 1px solid #F5F5F5;
@@ -19,12 +19,14 @@ line-height: 23px;
 color: #808080;
 
 }
+.form{
+    width: 100%;
+}
 .button{
-    padding: 16px 56px;
+padding: 16px 56px;
 width: 155px;
 height: 57px;
 display: block;
-margin-top: 8px;
 
 background: #28A745;
 border-radius: 5px;
