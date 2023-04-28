@@ -3,3 +3,8 @@
     color: #333333;
     background-color: #FFFFFF;
 }
+@media screen and (min-width: 768px){
+   .container{
+    padding: 72px 32px 50px 32px;
+   }
+}

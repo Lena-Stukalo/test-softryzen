@@ -5,7 +5,7 @@ import team3 from '../../../images/team/person3.jpg'
 
 
 export function Gallery(){
-    return <ul>
+    return <ul className={css.gallery}>
 <li className={css.item}><img src={team1} alt="team mate"  className={css.img}/>
 <p className={css.name}>John Doe</p>
 <p className={css.ocupation}>President</p>
