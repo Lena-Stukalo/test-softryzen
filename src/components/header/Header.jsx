@@ -5,7 +5,7 @@ import css from'./Header.module.css'
 export function Header( ){
   const [color, setColor]=useState(false)
   const cangeColor=()=>{
-    if (window.scrollY>90){
+    if (window.scrollY>70){
       setColor(true)
     }else{
       setColor(false)
