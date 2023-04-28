@@ -20,7 +20,7 @@ export function Gallery({ showModal, getImg}){
                     return <li onClick={() => {
                        getImg(item)
                        showModal()
-                      }} className={css.item}><img srcSet={`${cases2x[index]} 2x`} src={item} alt="case" className={css.img}/></li>
+                      }} className={css.item} key={index}><img srcSet={`${cases2x[index]} 2x`} src={item} alt="case" className={css.img}/></li>
                 })}
     </ul>
    }
