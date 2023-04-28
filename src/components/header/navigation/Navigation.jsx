@@ -1,6 +1,6 @@
 import css from './Navigation.module.css'
 export function Navigation(){
-    return <nav className="">
+    return <nav className={css.nav}>
     <ul className={css.navList}>
         <li className={css.navItem}><a href="#home" className={css.link}>Home</a></li>
         <li className={css.navItem}><a href="#about"  className={css.link}>About</a></li>

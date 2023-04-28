@@ -1,8 +1,17 @@
 .header{
     background-color: transparent;
     padding: 22px 22px 0 22px;
+    width: 100%;
    min-width: 320px;
    position: fixed;
    left: 50%;
    transform: translate(-50%, 0);
+   
+}
+@media screen and (min-width: 768px) {
+    .header{display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 100%;
+padding: 32px 32px 0 32px;}
 }
