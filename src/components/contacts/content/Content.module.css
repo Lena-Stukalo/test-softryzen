@@ -26,3 +26,12 @@ font-weight: 400;
     }
  
  }
+ @media screen and (min-width: 1360px){
+  
+  
+    .container{
+     padding: 56px 24px ;
+     width: 58%;
+    }
+ 
+ }
