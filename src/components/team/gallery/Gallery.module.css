@@ -1,6 +1,5 @@
 .img{
     width:100%;
-    margin-bottom: 16px;
 }
 .item:not(:last-child){
     margin-bottom: 30px;
@@ -15,7 +14,13 @@ line-height: 22px;
 /* identical to box height */
 
 text-align: center;
+}
+.tumb{position: relative;
+    margin-bottom: 16px;
+overflow: hidden;}
 
+.item:hover .transform {
+  transform: translateY(-100%);
 }
 @media screen and (min-width: 768px){
     .gallery{
@@ -25,7 +30,6 @@ text-align: center;
     }
     .item{
         width: calc((100% - 54px) / 3);
-  max-width: 233px;
     }
     .item:not(:nth-child(3n)){
         margin-right: 18px;
@@ -33,9 +37,6 @@ text-align: center;
     .item:not(:last-child){
         margin-bottom: 0;
     }
-    .item:not(:nth-last-child(-n + 3)) {
-        margin-bottom: 18px;
-      }
       .name{
         font-size: 32px;
 line-height: 32px;

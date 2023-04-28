@@ -12,7 +12,6 @@
     }
     .item{
         width: calc((100% - 54px) / 3);
-  max-width: 233px;
     }
     .item:not(:nth-child(3n)){
         margin-right: 18px;

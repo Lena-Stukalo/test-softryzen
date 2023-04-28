@@ -17,3 +17,13 @@ color: #28A745;
 }
 .textSecond{
     color: #FFFFFF;}
+
+    .container:hover{
+        transform: scale(1.2);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    @media screen and (min-width: 768px) {
+        .container{
+        margin-bottom: 0;
+        }
+      }

@@ -8,10 +8,13 @@
    transform: translate(-50%, 0);
    
 }
+.headerBg{
+    background-color: rgba(0, 0, 0, 0.7);
+}
 @media screen and (min-width: 768px) {
     .header{display: flex;
     justify-content: space-between;
     align-items: center;
 width: 100%;
-padding: 32px 32px 0 32px;}
+padding: 16px 32px 16px 32px;}
 }

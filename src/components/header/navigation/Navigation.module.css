@@ -6,6 +6,7 @@ font-size: 16px;
 line-height: 1.38;
 /* identical to box height */
 text-decoration: none;
+padding: 5px;
 
 
 color: #FFFFFF;
@@ -17,9 +18,14 @@ color: #FFFFFF;
 .navItem{
     list-style: none;
 }
+.link:hover{
+  border-bottom: solid 1px #28A745;
+  transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 @media screen and (min-width: 768px) {
   .nav{
     width: 100%;
-    padding-left: 73px;
+    max-width: 403px;
   }
 }

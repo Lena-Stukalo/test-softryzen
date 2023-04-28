@@ -5,22 +5,36 @@ height: 56px;
 background: #FFFFFF;
 border: 1px solid #F5F5F5;
 border-radius: 5px;
-margin-bottom: 16px;
 display: block;
+font-size: 16px;
+    line-height: 23px;
+    color: #808080;
 }
 
-.label{
+.tumb .label{
+    position: absolute;
+    top:16px;
+    left: 8px;
     display: block;
     font-size: 16px;
 line-height: 23px;
 /* or 144% */
-
-
 color: #808080;
-
+transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form{
     width: 100%;
+}
+.tumb{
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+.fullfield{
+    font-size: 16px;
+line-height: 23px;
+/* or 144% */
+color: #808080;
 }
 .button{
 padding: 16px 56px;
@@ -35,4 +49,22 @@ line-height: 25px;
 border-style: none;
 text-align: center;
 color: #FFFFFF;
+}
+.tumb:focus-within .label{
+    top:-25px;
+    left:0;
+    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1360px){
+    .tumb .label{ 
+        font-size: 18px;
+        line-height: 25px;}
+        .input{ 
+            font-size: 18px;
+            line-height: 25px;}
+
+            .fullfield{
+                font-size: 18px;
+            line-height: 25px;
+            }
 }
